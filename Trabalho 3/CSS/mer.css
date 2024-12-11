@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    background-color: rgb(18, 92, 124); 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue; 
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  header {
+    background-color: #3498db; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo h1 {
+    font-size: 2.5rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #f39c12; 
+  }
+  
+  
+  .comparacao {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 40px;
+  }
+  
+  .comparacao h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .plataformas-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .plataforma {
+    background-color: #f9f9f9;
+    border: 5px solid rgb(252, 252, 252);
+    padding: 30px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+  }
+  
+  .plataforma h3 {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-bottom: 15px;
+  }
+  
+  .plataforma ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .plataforma ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .plataforma .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .plataforma .btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+  }
+  
+  .plataforma .btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.6);
+  }
+  
+  
+  .aws {
+    border-left: 5px solid #FF9900; 
+  }
+  
+  .azure {
+    border-left: 5px solid #0078D4;
+  }
+  
+  .google-cloud {
+    border-left: 5px solid #4285F4; 
+  }
+  
+  
+  .plataforma:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  
+  
+  

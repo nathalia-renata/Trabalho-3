@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #3498db;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #9dd4f8;
+    color: #3498db;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilo da seção de planos */
+  .planos {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #2980b9;
+  }
+  
+  .planos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .planos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .plano {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plano h3 {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-bottom: 15px;
+  }
+  
+  .plano p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .plano ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .plano ul li {
+    margin: 10px 0;
+  }
+  
+  .plano .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .plano .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilo para os planos específicos */
+  .plano-intermediario {
+    background-color: #f2f7fc;
+  }
+  
+  .plano-avancado {
+    background-color: #e9f6f8;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
